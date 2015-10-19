@@ -1,0 +1,407 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  position: relative;
+  background: url(table.jpg) 0, 35% no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.wrapper {
+  max-width: 67%;
+  margin: 0 auto;
+  padding-bottom: 1vh;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding-bottom: 1vh;
+}
+
+header {
+  position: relative;
+  padding-top: 50px;
+}
+
+h1 {
+  padding-top: 50px;
+  margin: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  padding-bottom: 50px;
+  text-align: center;
+  border: 7px solid #b24f4e;
+}
+
+h1 span.and {
+  font-size: 300px;
+  position: absolute;
+  left: 43%;
+  top: -27px;
+  font-family: "Rouge Script";
+  color: rgba(255, 255, 255, 0.4);
+}
+
+h1 span.food {
+  font-size: 75px;
+  text-shadow: 0, 0, 10, black;
+  position: relative;
+  z-index: 3;
+}
+
+h1 span.winetitle {
+  font-size: 75px;
+  font-style: italic;
+  position: relative;
+  z-index: 3;
+}
+
+div.pair {
+  position: relative;
+  margin: 0 0 20% 0;
+}
+
+p.paired {
+  border: 7px solid #c17272;
+  width: 50%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  margin: 0 0 0 20%;
+  padding: 25px;
+  text-align: justify;
+}
+
+p.fonticon svg {
+  fill: rgba(255, 255, 255, 0.5);
+  border: 7px solid #c98483;
+  width: 20%;
+  padding: 10px 25px;
+  position: absolute;
+  top: 55px;
+  right: 13%;
+}
+
+form {
+  text-align: center;
+  padding-top: 50px;
+  margin: 6% 0;
+}
+
+form label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+option, select {
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+option:focus, select:focus {
+  outline: 1px solid #b24f4e;
+}
+
+.wine {
+  color: white;
+  margin: 20px 20px 50px 20px;
+}
+
+.wine h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-style: bold;
+}
+
+.wine img {
+  float: left;
+  width: 25%;
+  border: 4px solid darkgrey;
+  margin: 0 20px;
+}
+
+.wine p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  margin: 7px 0 3px 0;
+}
+
+.wine p.origin {
+  margin: 1px;
+  font-style: italic;
+}
+
+aside {
+  position: fixed;
+  color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  left: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  width: 16%;
+  margin-left: 1%;
+  font-size: 12px;
+}
+
+aside p {
+  margin: 0;
+  padding: 5px;
+}
+
+aside a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 940px) {
+  p.paired {
+    width: 67%;
+    margin: 0 0 0 5%;
+  }
+  p.fonticon svg {
+    top: 65px;
+    right: 3%;
+    width: 30%;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media all and (max-width: 767px) {
+  .wrapper {
+    max-width: 80%;
+    padding-bottom: 5vh;
+  }
+  h1 span.food {
+    font-size: 70px;
+  }
+  h1 span.winetitle {
+    font-size: 70px;
+  }
+  h1 span.and {
+    left: 35%;
+    top: -36px;
+  }
+  p.paired {
+    width: 75%;
+    margin: 0 0 0 5%;
+  }
+  p.fonticon svg {
+    top: 100px;
+    right: -5%;
+    width: 30%;
+  }
+  aside {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.75);
+  }
+}
+
+@media all and (max-width: 480px) {
+  .wrapper {
+    max-width: 95%;
+  }
+  .dark {
+    padding-bottom: 10vh;
+  }
+  h1 span.food {
+    font-size: 60px;
+  }
+  h1 span.winetitle {
+    font-size: 60px;
+  }
+  h1 span.and {
+    left: 35%;
+    top: -36px;
+  }
+  p.paired {
+    width: 67%;
+    margin: 0 0 0 5%;
+  }
+  p.fonticon svg {
+    top: 100px;
+    right: 4%;
+    width: 30%;
+  }
+}

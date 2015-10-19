@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Food & Wine Pairing</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Rouge+Script' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="image/png" href="favicon.png" rel="icon">
+</head>
+<body>
+	<div class="dark">
+		<div class="wrapper">
+			<header>
+				<h1><span class="food">Food</span><span class="and">&</span><span class="winetitle">Wine</span></h1>
+			</header>	
+			<form action="">
+		        <label for="food">Choose your recipe flavour profile:</label>
+		        <select name="food" id="food">
+			        <option value="Sweet">Sweet</option>
+			        <option value="Savoury">Savoury</option>
+			        <option value="Sour">Sour</option>
+			        <option value="Bitter">Bitter</option>
+			        <option value="Spicy">Spicy</option>
+			        <option value="Salty">Salty</option>
+			        <option value="Meat">Red Meat</option>
+		        </select>
+		    </form>
+		    <div class="pair">
+		    	<p class="paired">While food and wine pairing is an art not a science, there are some rules you can follow to help create the perfect pairing. Try out the suggestions, and tell us about your perfect combination! <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://tiffanydanielle.ca/foodandwine" data-text="Need a wine to pair with your dish? Find a perfect pair with this wine app" data-via="tiffnogueira" data-hashtags="FoodWinePairing">Tweet</a></p>
+		    	<p class="fonticon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><g><g><path d="M25.6,67.5c-8.8-3.3-10.3-10.8-7.8-17.5c1.4-3.7,26.2,6.5,25.1,9.4C40.4,66,34.4,70.8,25.6,67.5z"/></g><path d="M48.9,38.4L48.7,38l-21.3-7.9l-0.4,0.1c-5.6,1.7-14.7,14-15.1,25.4C11.8,61,13.6,68.1,22.7,72l-6.6,17.6L9.3,87l-0.8,2.2   L23.8,95l0.8-2.2l-6.3-2.4l6.6-17.6c2.1,0.7,4.2,1,6.1,1c6.3,0,11.5-3.5,15.1-10.1C51.1,54.8,51.7,42.8,48.9,38.4z M44,62.6   c-2.2,4-6.3,8.9-13.1,8.9c-2,0-4.2-0.4-6.4-1.3c-7-2.6-10.4-7.5-10.2-14.5c0.3-10.3,8.6-21.3,13-23.1L47.1,40   C49,43.7,48.6,54.4,44,62.6z"/><g><rect x="28.2" y="20.5" transform="matrix(0.7071 0.7071 -0.7071 0.7071 25.7997 -18.8179)" width="14.7" height="2.4"/></g><g><rect x="48.8" y="5" width="2.4" height="14.7"/></g><g><rect x="63.7" y="14.1" transform="matrix(0.7071 0.7071 -0.7071 0.7071 34.1946 -39.6004)" width="2.4" height="14.8"/></g><g><path d="M74.4,67.5c8.8-3.3,10.3-10.8,7.8-17.5c-1.4-3.7-26.2,6.5-25.1,9.4C59.6,66,65.6,70.8,74.4,67.5z"/></g><path d="M90.7,87l-6.8,2.5L77.3,72C86.4,68.1,88.2,61,88,55.7c-0.3-11.4-9.5-23.7-15.1-25.4l-0.4-0.1L51.3,38l-0.2,0.3   c-2.8,4.4-2.1,16.5,2.8,25.4c3.6,6.6,8.9,10.1,15.1,10.1c0,0,0,0,0,0c1.9,0,4-0.4,6.1-1l6.6,17.6l-6.3,2.4l0.8,2.2l15.4-5.7   L90.7,87z M69,71.5c-6.7,0-10.8-4.8-13.1-8.9c-4.5-8.2-4.9-18.9-3-22.6l19.7-7.3c4.4,1.8,12.7,12.8,13,23.1   c0.2,7-3.2,11.8-10.2,14.5C73.2,71,71,71.5,69,71.5L69,71.5z"/></g></svg></p>
+		    </div>
+		    <section class="clearfix">
+		    	<div class="container" id="wines"></div>
+		  	</section>
+	  	</div> <!-- /wrapper -->
+	  	<aside class="clearfix">
+		  	<p>Designed and Developed by <a href="tiffanydanielle.ca">Tiffany Danielle</a> with the <a href="https://lcboapi.com/docs/v1#getting-started">LCBO API</a></p>
+		</aside>
+	</div> <!-- /dark -->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
+
+<!-- 	CREDITS:
+	LCBO API provided by https://lcboapi.com/docs/v1#getting-started,
+	Party Icon by Giulia Sicurella from the Noun Project,
+	Fonts (Open Sans and Rouge Script) from Google Fonts,
+	Background Photo from pexels.com,
+	Author has Level 2 Award in Wine and Spirits from WSET,
+	wine suggestions from WSET Education-->
+
+
